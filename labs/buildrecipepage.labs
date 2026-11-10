@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chicken Fried Rice Recipe</title>
+</head>
+<body>
+
+  <h1>Chicken Fried Rice</h1>
+
+  <p>A delicious and easy chicken fried rice recipe made with fresh vegetables, chicken, eggs and rice. Perfect for lunch or dinner!</p>
+
+  <img src="https://cdn.freecodecamp.org/curriculum/labs/recipe.jpg" alt="A freshly prepared homemade recipe dish">
+
+  <h2>Ingredients</h2>
+
+  <ul>
+    <li>2 cups cooked rice</li>
+    <li>1 cup chopped chicken</li>
+    <li>2 eggs</li>
+    <li>1 cup mixed vegetables</li>
+    <li>2 tablespoons cooking oil</li>
+    <li>2 tablespoons soy sauce</li>
+    <li>Salt and pepper</li>
+  </ul>
+
+  <h2>Instructions</h2>
+
+  <ol>
+    <li>Cook the rice and set it aside to cool.</li>
+    <li>Heat cooking oil in a large frying pan.</li>
+    <li>Add the chicken and cook until fully done.</li>
+    <li>Add the eggs and stir until scrambled.</li>
+    <li>Add the mixed vegetables and cook for a few minutes.</li>
+    <li>Add the cooked rice and soy sauce.</li>
+    <li>Mix everything well and season with salt and pepper.</li>
+    <li>Serve hot and enjoy!</li>
+  </ol>
+
+</body>
+</html>
