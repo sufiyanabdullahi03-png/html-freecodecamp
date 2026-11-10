@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime World - Video Compilation</title>
+</head>
+<body>
+  <main>
+    <h1>Anime World</h1>
+    <p>
+      Welcome to Anime World! Explore exciting anime moments,
+      epic battles, and amazing adventures through these videos.
+    </p>
+
+    <section>
+      <h2>Epic Anime Battles</h2>
+      <p>Watch some exciting anime battle scenes filled with action.</p>
+      <iframe
+        src="https://www.youtube.com/embed/2X8f7fY8g7Q"
+        title="Epic Anime Battles"
+        height="315"
+        width="560"
+        allowfullscreen>
+      </iframe>
+    </section>
+
+    <section>
+      <h2>Anime Adventures</h2>
+      <p>Discover incredible adventures and unforgettable anime moments.</p>
+      <iframe
+        src="https://www.youtube.com/embed/ScMzIvxBSi4"
+        title="Anime Adventures"
+        height="315"
+        width="560"
+        allowfullscreen>
+      </iframe>
+    </section>
+
+    <section>
+      <h2>Anime Motivation</h2>
+      <p>Enjoy inspiring moments from the world of anime.</p>
+      <iframe
+        src="https://www.youtube.com/embed/tgbNymZ7vqY"
+        title="Anime Motivation"
+        height="315"
+        width="560"
+        allowfullscreen>
+      </iframe>
+    </section>
+  </main>
+</body>
+</html>
