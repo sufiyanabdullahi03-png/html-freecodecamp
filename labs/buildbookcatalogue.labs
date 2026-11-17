@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Catalog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f1ea;
+      padding: 30px;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #493323;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: white;
+      margin-top: 25px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 14px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #493323;
+      color: white;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f1e9dc;
+    }
+
+    tfoot {
+      background-color: #493323;
+      color: white;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>My Book Collection</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Publication Year</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>The Hobbit</td>
+        <td>J.R.R. Tolkien</td>
+        <td>Fantasy</td>
+        <td>1937</td>
+      </tr>
+
+      <tr>
+        <td>Harry Potter and the Philosopher's Stone</td>
+        <td>J.K. Rowling</td>
+        <td>Fantasy</td>
+        <td>1997</td>
+      </tr>
+
+      <tr>
+        <td>Things Fall Apart</td>
+        <td>Chinua Achebe</td>
+        <td>Historical Fiction</td>
+        <td>1958</td>
+      </tr>
+
+      <tr>
+        <td>The Alchemist</td>
+        <td>Paulo Coelho</td>
+        <td>Adventure</td>
+        <td>1988</td>
+      </tr>
+
+      <tr>
+        <td>1984</td>
+        <td>George Orwell</td>
+        <td>Dystopian Fiction</td>
+        <td>1949</td>
+      </tr>
+
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="4">Total Books: 5</td>
+      </tr>
+    </tfoot>
+
+  </table>
+
+</body>
+</html>
+
