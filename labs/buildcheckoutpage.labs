@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f0ff;
+      color: #29213d;
+      margin: 0;
+      padding: 30px;
+    }
+
+    main {
+      max-width: 650px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6d28d9;
+      margin-bottom: 30px;
+    }
+
+    section {
+      background: white;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    }
+
+    h2 {
+      color: #6d28d9;
+      margin-top: 0;
+    }
+
+    img {
+      width: 150px;
+      border-radius: 10px;
+    }
+
+    label {
+      display: block;
+      margin: 18px 0 8px;
+      font-weight: bold;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #c4b5fd;
+      border-radius: 7px;
+      box-sizing: border-box;
+      font-size: 15px;
+    }
+
+    input:focus {
+      outline: 2px solid #8b5cf6;
+    }
+
+    span {
+      color: red;
+    }
+
+    #card-number-help {
+      font-size: 13px;
+      color: #6b7280;
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      margin-top: 20px;
+      background: #6d28d9;
+      color: white;
+      border: none;
+      border-radius: 7px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #5b21b6;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main>
+
+    <h1>Checkout</h1>
+
+    <!-- Shopping Cart Section -->
+    <section>
+      <h2>Your Cart</h2>
+
+      <img
+        src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg"
+        alt="Colorful geometric cube product">
+
+      <h3>Colorful Cube</h3>
+      <p>Quantity: 1</p>
+      <p>Price: $25.00</p>
+      <p><strong>Total: $25.00</strong></p>
+    </section>
+
+    <!-- Payment Information Section -->
+    <section>
+      <h2>Payment Information</h2>
+
+      <form>
+
+        <label for="card-name">
+          Cardholder Name
+          <span aria-hidden="true">*</span>
+        </label>
+
+        <input
+          type="text"
+          id="card-name"
+          name="card-name"
+          required>
+
+        <label for="card-number">
+          Card Number
+          <span aria-hidden="true">*</span>
+        </label>
+
+        <input
+          type="text"
+          id="card-number"
+          name="card-number"
+          required
+          aria-describedby="card-number-help">
+
+        <p id="card-number-help">
+          Enter your 16-digit card number without spaces or dashes.
+        </p>
+
+        <button type="submit">Pay Now</button>
+
+      </form>
+    </section>
+
+  </main>
+
+</body>
+</html>
+
