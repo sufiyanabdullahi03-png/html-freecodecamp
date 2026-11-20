@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Player</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111827;
+      color: white;
+      margin: 0;
+      padding: 30px;
+    }
+
+    main {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: #38bdf8;
+    }
+
+    section {
+      background-color: #1f2937;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-radius: 12px;
+    }
+
+    h2 {
+      color: #38bdf8;
+    }
+
+    audio, video {
+      width: 100%;
+      margin-top: 15px;
+    }
+
+    video {
+      border-radius: 8px;
+    }
+
+    .transcript {
+      line-height: 1.8;
+      color: #d1d5db;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main>
+
+    <h1>My Multimedia Player</h1>
+
+    <!-- First Section: Audio Player -->
+    <section>
+      <h2>Now Playing: Sailing Away</h2>
+
+      <audio controls aria-label="Sailing Away audio player">
+        <source
+          src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3"
+          type="audio/mpeg">
+      </audio>
+    </section>
+
+    <!-- Second Section: Video Player -->
+    <section>
+      <h2>Video: Understanding the Map Method</h2>
+
+      <video
+        controls
+        width="600"
+        aria-label="Video explaining how the JavaScript map method works">
+
+        <source
+          src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4"
+          type="video/mp4">
+
+        <track
+          src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.vtt"
+          kind="subtitles"
+          srclang="en"
+          label="English">
+
+      </video>
+    </section>
+
+    <!-- Third Section: Transcript -->
+    <section>
+      <h2>Video Transcript</h2>
+
+      <p class="transcript">
+        The JavaScript map method is used to create a new array
+        by applying a function to every element in an existing array.
+        It does not change the original array. Instead, it returns
+        a new array containing the results of the function applied
+        to each element.
+      </p>
+    </section>
+
+  </main>
+
+</body>
+</html>
+
