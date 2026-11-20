@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Review</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111827;
+      color: #f9fafb;
+      margin: 0;
+      padding: 30px;
+    }
+
+    main {
+      max-width: 750px;
+      margin: auto;
+      background-color: #1f2937;
+      padding: 30px;
+      border-radius: 15px;
+    }
+
+    h1 {
+      color: #facc15;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      width: 250px;
+      max-width: 100%;
+      margin: 20px auto;
+      border-radius: 10px;
+    }
+
+    p {
+      line-height: 1.7;
+    }
+
+    .rating {
+      color: #facc15;
+    }
+
+    h2 {
+      color: #facc15;
+      border-bottom: 2px solid #374151;
+      padding-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main>
+
+    <h1>Rise Beyond</h1>
+
+    <img 
+      src="https://cdn.freecodecamp.org/curriculum/labs/rise-beyond-2.png"
+      alt="Movie poster for Rise Beyond showing the film's main character">
+
+    <p>
+      Rise Beyond is an inspiring adventure about courage, determination,
+      and the power of believing in yourself. A young hero faces dangerous
+      challenges while fighting to protect the people he loves.
+    </p>
+
+    <p class="rating">
+      <b>Movie Rating:</b>
+      <span aria-hidden="true">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆</span>
+      (9/10)
+    </p>
+
+    <h2>Cast Members</h2>
+
+    <ul>
+      <li><b>James Holloway</b> as Ethan Carter</li>
+      <li><b>Sarah Mitchell</b> as Olivia Brooks</li>
+      <li><b>Daniel Roberts</b> as Marcus Reed</li>
+      <li><b>Emily Watson</b> as Sophia Lane</li>
+      <li><b>Michael Anderson</b> as David Carter</li>
+    </ul>
+
+  </main>
+
+</body>
+</html>
+
